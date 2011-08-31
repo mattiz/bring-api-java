@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConsignmentSet xmlns="http://www.bring.no/sporing/1.0">
+  <Status>
+    <System>Cargo</System>
+    <Code>503</Code>
+    <Error>Server too busy</Error>
+  </Status>
+  <!--Les vilkår for bruk på http://fraktguide.bring.no/-->
+  <Consignment consignmentId="70714835851543838">
+    <TotalWeight unitCode="kg">0.0</TotalWeight>
+    <TotalVolume unitCode="dm3">2.6</TotalVolume>
+    <PackageSet>
+      <Package packageId="370714835851543846">
+        <StatusDescription/>
+        <ProductName>KLIMANØYTRAL SERVICEPAKKE</ProductName>
+        <ProductCode>1202</ProductCode>
+        <Brand>POSTEN</Brand>
+        <Weight unitCode="kg">0.0</Weight>
+        <Length unitCode="cm">27</Length>
+        <Width unitCode="cm">19</Width>
+        <Height unitCode="cm">5</Height>
+        <Volume unitCode="dm3">2.6</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>121180</UnitId>
+            <PostalCode>0768</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-08T16:37:34.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>08.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>16.37</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description><![CDATA[Sendingen er ankommet <a title="Her finner du Hovseter Post i Butikk, ICA Huseby" href="http://kart.posten.no/mapPage.aspx?caller=spor&amp;profile=sporing&amp;id=121180&amp;visible=bedrift;pib;post;automat&amp;checked=bedrift;pib;post;automat" class="sporing-lightbox-postoffice">Hovseter Post i Butikk, ICA Huseby</a>]]></Description>
+            <Status>READY_FOR_PICKUP</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>121180</UnitId>
+            <PostalCode>0768</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-08T12:55:26.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>08.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>12.55</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-07T18:19:14.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>07.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>18.19</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-07T18:19:13.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>07.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>18.19</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702125881178557">
+    <TotalWeight unitCode="kg">9.3</TotalWeight>
+    <TotalVolume unitCode="dm3">38.5</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702125881178565">
+        <StatusDescription/>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">9.3</Weight>
+        <Length unitCode="cm">46</Length>
+        <Width unitCode="cm">31</Width>
+        <Height unitCode="cm">27</Height>
+        <Volume unitCode="dm3">38.5</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>bjørg smith</Name>
+              <LinkToImage>signatur.png?kollinummer=370702125881178565&amp;date=2011-06-27T10:44:07</LinkToImage>
+            </RecipientSignature>
+            <UnitId>617718</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-27T10:44:07.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>27.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.44</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>617718</UnitId>
+            <PostalCode>6390</PostalCode>
+            <City>VESTNES</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-27T10:15:07.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>27.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.15</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>921200</UnitId>
+            <PostalCode>6410</PostalCode>
+            <City>MOLDE</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-27T06:24:18.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>27.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>06.24</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er sortert og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-24T19:33:39.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>24.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>19.33</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-24T15:38:52.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>24.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.38</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702125881177772">
+    <TotalWeight unitCode="kg">25.7</TotalWeight>
+    <TotalVolume unitCode="dm3">85.3</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702125881177780">
+        <StatusDescription/>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">25.7</Weight>
+        <Length unitCode="cm">55</Length>
+        <Width unitCode="cm">47</Width>
+        <Height unitCode="cm">33</Height>
+        <Volume unitCode="dm3">85.3</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>ole</Name>
+              <LinkToImage>signatur.png?kollinummer=370702125881177780&amp;date=2011-06-22T14:15:09</LinkToImage>
+            </RecipientSignature>
+            <UnitId>301707</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-22T14:15:09.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>22.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>14.15</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>301707</UnitId>
+            <PostalCode>3300</PostalCode>
+            <City>HOKKSUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-22T10:21:02.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>22.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.21</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032825</UnitId>
+            <PostalCode>3007</PostalCode>
+            <City>DRAMMEN</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-22T06:52:35.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>22.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>06.52</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er sortert og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T20:00:50.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>20.00</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T16:04:56.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>16.04</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702125881177611">
+    <TotalWeight unitCode="kg">24.0</TotalWeight>
+    <TotalVolume unitCode="dm3">47.5</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702125881177629">
+        <StatusDescription/>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">24.0</Weight>
+        <Length unitCode="cm">45</Length>
+        <Width unitCode="cm">33</Width>
+        <Height unitCode="cm">32</Height>
+        <Volume unitCode="dm3">47.5</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>elin jønnardalen</Name>
+              <LinkToImage>signatur.png?kollinummer=370702125881177629&amp;date=2011-06-23T10:38:57</LinkToImage>
+            </RecipientSignature>
+            <UnitId>318760</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-23T10:38:57.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>23.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.38</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>318760</UnitId>
+            <PostalCode>3890</PostalCode>
+            <City>VINJE</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-23T10:17:57.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>23.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.17</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032828</UnitId>
+            <PostalCode>3169</PostalCode>
+            <City>STOKKE</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-22T12:03:40.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>22.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>12.03</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er sortert og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T20:00:21.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>20.00</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T16:05:03.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>16.05</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702125881174504">
+    <TotalWeight unitCode="kg">5.9</TotalWeight>
+    <TotalVolume unitCode="dm3">12.3</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702125881174512">
+        <StatusDescription/>
+        <ProductName>BP EKSPRESS OVER NATT</ProductName>
+        <ProductCode>1002</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">5.9</Weight>
+        <Length unitCode="cm">31</Length>
+        <Width unitCode="cm">22</Width>
+        <Height unitCode="cm">18</Height>
+        <Volume unitCode="dm3">12.3</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>per</Name>
+              <LinkToImage>signatur.png?kollinummer=370702125881174512&amp;date=2011-06-10T12:10:39</LinkToImage>
+            </RecipientSignature>
+            <UnitId>214705</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-10T12:10:39.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>10.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>12.10</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>214705</UnitId>
+            <PostalCode>2640</PostalCode>
+            <City>VINSTRA</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-10T11:51:47.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>10.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>11.51</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-09T15:40:59.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>09.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.40</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-09T15:40:58.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>09.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.40</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702129204700050">
+    <TotalWeight unitCode="kg">0.8</TotalWeight>
+    <TotalVolume unitCode="dm3">6.0</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702129204700068">
+        <StatusDescription/>
+        <ProductName>BP EKSPRESS OVER NATT</ProductName>
+        <ProductCode>1002</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">0.8</Weight>
+        <Length unitCode="cm">23</Length>
+        <Width unitCode="cm">20</Width>
+        <Height unitCode="cm">13</Height>
+        <Volume unitCode="dm3">6.0</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>Mette Smeby</Name>
+              <LinkToImage>signatur.png?kollinummer=370702129204700068&amp;date=2011-06-21T12:59:28</LinkToImage>
+            </RecipientSignature>
+            <UnitId>181766</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-21T12:59:28.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>12.59</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>181766</UnitId>
+            <PostalCode>2070</PostalCode>
+            <City>RÅHOLT</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T09:54:34.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>09.54</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T18:27:41.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>18.27</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T18:27:40.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>18.27</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702125881177574">
+    <TotalWeight unitCode="kg">28.5</TotalWeight>
+    <TotalVolume unitCode="dm3">88.7</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702125881177582">
+        <StatusDescription/>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">28.5</Weight>
+        <Length unitCode="cm">56</Length>
+        <Width unitCode="cm">48</Width>
+        <Height unitCode="cm">33</Height>
+        <Volume unitCode="dm3">88.7</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>C Rød</Name>
+              <LinkToImage>signatur.png?kollinummer=370702125881177582&amp;date=2011-06-22T12:51:03</LinkToImage>
+            </RecipientSignature>
+            <UnitId>501729</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-22T12:51:03.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>22.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>12.51</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>501729</UnitId>
+            <PostalCode>5282</PostalCode>
+            <City>LONEVÅG</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-22T10:06:11.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>22.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.06</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032840</UnitId>
+            <PostalCode>5020</PostalCode>
+            <City>BERGEN</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T11:47:28.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>11.47</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er sortert og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T20:24:41.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>20.24</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T15:29:42.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.29</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702125881177536">
+    <TotalWeight unitCode="kg">23.7</TotalWeight>
+    <TotalVolume unitCode="dm3">90.5</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702125881177544">
+        <StatusDescription/>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">23.7</Weight>
+        <Length unitCode="cm">55</Length>
+        <Width unitCode="cm">47</Width>
+        <Height unitCode="cm">35</Height>
+        <Volume unitCode="dm3">90.5</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>bjørg smith</Name>
+              <LinkToImage>signatur.png?kollinummer=370702125881177544&amp;date=2011-06-21T10:44:10</LinkToImage>
+            </RecipientSignature>
+            <UnitId>617718</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-21T10:44:10.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.44</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>617718</UnitId>
+            <PostalCode>6390</PostalCode>
+            <City>VESTNES</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T10:18:33.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.18</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>921200</UnitId>
+            <PostalCode>6410</PostalCode>
+            <City>MOLDE</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T06:45:15.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>06.45</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er sortert og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T20:22:29.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>20.22</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T15:27:33.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.27</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702125881177550">
+    <TotalWeight unitCode="kg">27.0</TotalWeight>
+    <TotalVolume unitCode="dm3">93.6</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702125881177568">
+        <StatusDescription/>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">27.0</Weight>
+        <Length unitCode="cm">55</Length>
+        <Width unitCode="cm">46</Width>
+        <Height unitCode="cm">37</Height>
+        <Volume unitCode="dm3">93.6</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>oseth</Name>
+              <LinkToImage>signatur.png?kollinummer=370702125881177568&amp;date=2011-06-21T10:39:45</LinkToImage>
+            </RecipientSignature>
+            <UnitId>101212</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-21T10:39:45.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.39</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>101212</UnitId>
+            <PostalCode>3007</PostalCode>
+            <City>DRAMMEN</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T08:46:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>08.46</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032825</UnitId>
+            <PostalCode>3007</PostalCode>
+            <City>DRAMMEN</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T08:45:50.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>08.45</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er sortert og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T20:23:33.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>20.23</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T15:30:17.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.30</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70438101268591094">
+    <TotalWeight unitCode="kg">12.0</TotalWeight>
+    <TotalVolume unitCode="dm3">0.0</TotalVolume>
+    <PackageSet>
+      <Package packageId="370438101268745856">
+        <StatusDescription>Posten/Bring har fått melding fra avsender om at det kommer en sending, men denne er foreløpig ikke mottatt. For eventuelle spørsmål, ta kontakt med avsender</StatusDescription>
+        <ProductName>KLIMANØYTRAL SERVICEPAKKE</ProductName>
+        <ProductCode>1202</ProductCode>
+        <Brand>POSTEN</Brand>
+        <Weight unitCode="kg">12.0</Weight>
+        <Length unitCode="cm">0</Length>
+        <Width unitCode="cm">0</Width>
+        <Height unitCode="cm">0</Height>
+        <Volume unitCode="dm3">0.0</Volume>
+        <EventSet>
+          <Event>
+            <Description>Ingen sending er mottatt foreløpig, kun melding</Description>
+            <Status>PRE_NOTIFIED</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>904030</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-27T16:15:47.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>27.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>16.15</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702125881177598">
+    <TotalWeight unitCode="kg">16.3</TotalWeight>
+    <TotalVolume unitCode="dm3">57.5</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702125881177605">
+        <StatusDescription/>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">16.3</Weight>
+        <Length unitCode="cm">47</Length>
+        <Width unitCode="cm">36</Width>
+        <Height unitCode="cm">34</Height>
+        <Volume unitCode="dm3">57.5</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>G I S</Name>
+              <LinkToImage>signatur.png?kollinummer=370702125881177605&amp;date=2011-06-21T12:42:40</LinkToImage>
+            </RecipientSignature>
+            <UnitId>407712</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-21T12:42:40.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>12.42</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>407712</UnitId>
+            <PostalCode>4400</PostalCode>
+            <City>FLEKKEFJORD</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T12:22:45.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>12.22</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032835</UnitId>
+            <PostalCode>4068</PostalCode>
+            <City>STAVANGER</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T06:32:51.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>06.32</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er sortert og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T20:22:22.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>20.22</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-20T15:29:39.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>20.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.29</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702129082859260">
+    <TotalWeight unitCode="kg">11.9</TotalWeight>
+    <TotalVolume unitCode="dm3">90.5</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702129082859278">
+        <StatusDescription/>
+        <ProductName>BP EKSPRESS OVER NATT</ProductName>
+        <ProductCode>1002</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">11.9</Weight>
+        <Length unitCode="cm">69</Length>
+        <Width unitCode="cm">41</Width>
+        <Height unitCode="cm">32</Height>
+        <Volume unitCode="dm3">90.5</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>alstad</Name>
+              <LinkToImage>signatur.png?kollinummer=370702129082859278&amp;date=2011-06-07T11:18:21</LinkToImage>
+            </RecipientSignature>
+            <UnitId>617707</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-07T11:18:21.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>07.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>11.18</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>617707</UnitId>
+            <PostalCode>6405</PostalCode>
+            <City>MOLDE</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-07T10:18:22.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>07.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.18</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>921200</UnitId>
+            <PostalCode>6410</PostalCode>
+            <City>MOLDE</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-07T01:32:01.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>07.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>01.32</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032844</UnitId>
+            <PostalCode>9016</PostalCode>
+            <City>TROMSØ</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-06T16:31:29.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>06.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>16.31</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert på postkontor</Description>
+            <Status>HANDED_IN</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>140122</UnitId>
+            <PostalCode>9269</PostalCode>
+            <City>TROMSØ</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-06T16:13:03.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>06.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>16.13</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70713750043778144">
+    <TotalWeight unitCode="kg">0.3</TotalWeight>
+    <TotalVolume unitCode="dm3">2.6</TotalVolume>
+    <PackageSet>
+      <Package packageId="370713750081566629">
+        <StatusDescription/>
+        <ProductName>KLIMANØYTRAL SERVICEPAKKE</ProductName>
+        <ProductCode>1202</ProductCode>
+        <Brand>POSTEN</Brand>
+        <Weight unitCode="kg">0.3</Weight>
+        <Length unitCode="cm">22</Length>
+        <Width unitCode="cm">15</Width>
+        <Height unitCode="cm">8</Height>
+        <Volume unitCode="dm3">2.6</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>124607</UnitId>
+            <PostalCode>4082</PostalCode>
+            <City>STAVANGER</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-08T14:21:34.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>08.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>14.21</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description><![CDATA[Sendingen er ankommet <a title="Her finner du Ytre Tasta Post i Butikk, RIMI Tasta" href="http://kart.posten.no/mapPage.aspx?caller=spor&amp;profile=sporing&amp;id=124607&amp;visible=bedrift;pib;post;automat&amp;checked=bedrift;pib;post;automat" class="sporing-lightbox-postoffice">Ytre Tasta Post i Butikk, RIMI Tasta</a>]]></Description>
+            <Status>READY_FOR_PICKUP</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>124607</UnitId>
+            <PostalCode>4082</PostalCode>
+            <City>STAVANGER</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-05-31T09:29:42.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>31.05.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>09.29</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032835</UnitId>
+            <PostalCode>4068</PostalCode>
+            <City>STAVANGER</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-05-30T20:13:54.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>30.05.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>20.13</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032835</UnitId>
+            <PostalCode>4068</PostalCode>
+            <City>STAVANGER</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-05-30T20:13:53.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>30.05.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>20.13</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702129204700098">
+    <TotalWeight unitCode="kg">10.8</TotalWeight>
+    <TotalVolume unitCode="dm3">23.8</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702129204700105">
+        <StatusDescription/>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">10.8</Weight>
+        <Length unitCode="cm">48</Length>
+        <Width unitCode="cm">31</Width>
+        <Height unitCode="cm">16</Height>
+        <Volume unitCode="dm3">23.8</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er utlevert</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>stensberg</Name>
+              <LinkToImage>signatur.png?kollinummer=370702129204700105&amp;date=2011-06-23T10:48:25</LinkToImage>
+            </RecipientSignature>
+            <UnitId>210729</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-23T10:48:25.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>23.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>10.48</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er lastet opp for utkjøring</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>210729</UnitId>
+            <PostalCode>2451</PostalCode>
+            <City>RENA</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-23T09:21:20.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>23.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>09.21</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032823</UnitId>
+            <PostalCode>2309</PostalCode>
+            <City>HAMAR</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-22T06:18:44.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>22.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>06.18</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032850</UnitId>
+            <PostalCode>0024</PostalCode>
+            <City>OSLO</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-21T19:17:08.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>21.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>19.17</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70702129068389644">
+    <TotalWeight unitCode="kg">2.0</TotalWeight>
+    <TotalVolume unitCode="dm3">0.0</TotalVolume>
+    <PackageSet>
+      <Package packageId="370702129068389652">
+        <StatusDescription>Posten/Bring har fått melding fra avsender om at det kommer en sending, men denne er foreløpig ikke mottatt. For eventuelle spørsmål, ta kontakt med avsender</StatusDescription>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">2.0</Weight>
+        <Length unitCode="cm">0</Length>
+        <Width unitCode="cm">0</Width>
+        <Height unitCode="cm">0</Height>
+        <Volume unitCode="dm3">0.0</Volume>
+        <EventSet>
+          <Event>
+            <Description>Ingen sending er mottatt foreløpig, kun melding</Description>
+            <Status>PRE_NOTIFIED</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>904030</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-10T15:34:54.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>10.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.34</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+  <Consignment consignmentId="70300490337150309">
+    <TotalWeight unitCode="kg">0.6</TotalWeight>
+    <TotalVolume unitCode="dm3">0.0</TotalVolume>
+    <PackageSet>
+      <Package packageId="CS864014517NO">
+        <StatusDescription>Posten/Bring har fått melding fra avsender om at det kommer en sending, men denne er foreløpig ikke mottatt. For eventuelle spørsmål, ta kontakt med avsender</StatusDescription>
+        <ProductName>CARRYON BUSINESS</ProductName>
+        <ProductCode>0330</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">0.6</Weight>
+        <Length unitCode="cm">38</Length>
+        <Width unitCode="cm">15</Width>
+        <Height unitCode="cm">38</Height>
+        <Volume unitCode="dm3">0.0</Volume>
+        <EventSet>
+          <Event>
+            <Description>Ingen sending er mottatt foreløpig, kun melding</Description>
+            <Status>PRE_NOTIFIED</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>904030</UnitId>
+            <PostalCode/>
+            <City/>
+            <CountryCode/>
+            <Country/>
+            <OccuredAtIsoDateTime>2011-06-22T14:07:39.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>22.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>14.07</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+</ConsignmentSet>

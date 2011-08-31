@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Les vilkår for bruk på http://fraktguide.bring.no/-->
+<Package packageId="0">
+  <TraceMessages>
+    <Message>Package exceed maximum measurements for product B-POST (package ID: 0).</Message>
+    <Message>Package exceed maximum measurements for product A-POST (package ID: 0).</Message>
+  </TraceMessages>
+</Package>

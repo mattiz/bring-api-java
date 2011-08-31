@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package packageId="0">
+  <!--Les vilkår for bruk på http://fraktguide.bring.no/-->
+  <Product>
+    <ProductId>PA_DOREN</ProductId>
+    <ProductCodeInProductionSystem>1736</ProductCodeInProductionSystem>
+    <Price currencyIdentificationCode="NOK">
+      <PackagePriceWithoutAdditionalServices>
+        <AmountWithoutVAT>104.00</AmountWithoutVAT>
+        <VAT>26.00</VAT>
+        <AmountWithVAT>130.00</AmountWithVAT>
+      </PackagePriceWithoutAdditionalServices>
+    </Price>
+  </Product>
+  <Product>
+    <ProductId>SERVICEPAKKE</ProductId>
+    <ProductCodeInProductionSystem>1202</ProductCodeInProductionSystem>
+    <Price currencyIdentificationCode="NOK">
+      <PackagePriceWithoutAdditionalServices>
+        <AmountWithoutVAT>81.00</AmountWithoutVAT>
+        <VAT>20.25</VAT>
+        <AmountWithVAT>101.25</AmountWithVAT>
+      </PackagePriceWithoutAdditionalServices>
+    </Price>
+  </Product>
+  <TraceMessages/>
+</Package>

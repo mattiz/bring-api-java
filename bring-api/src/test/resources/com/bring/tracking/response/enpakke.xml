@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConsignmentSet xmlns="http://www.bring.no/sporing/1.0">
+  <!--Les vilkår for bruk på http://fraktguide.bring.no/-->
+  <Consignment consignmentId="70438101015432113">
+    <TotalWeight unitCode="kg">1.7</TotalWeight>
+    <TotalVolume unitCode="dm3">1.3</TotalVolume>
+    <PackageSet>
+      <Package packageId="370438101015432114">
+        <StatusDescription>Pakken leveres til mottaker og kan ikke hentes på terminal</StatusDescription>
+        <ProductName>BEDRIFTSPAKKE DØR - DØR INNLAND</ProductName>
+        <ProductCode>1000</ProductCode>
+        <Brand>BRING</Brand>
+        <Weight unitCode="kg">1.7</Weight>
+        <Length unitCode="cm">30</Length>
+        <Width unitCode="cm">21</Width>
+        <Height unitCode="cm">2</Height>
+        <Volume unitCode="dm3">1.3</Volume>
+        <EventSet>
+          <Event>
+            <Description>Sendingen er ankommet terminal og blir videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032825</UnitId>
+            <PostalCode>3007</PostalCode>
+            <City>DRAMMEN</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-28T08:03:20.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>28.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>08.03</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert til terminal og videresendt</Description>
+            <Status>IN_TRANSIT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>032835</UnitId>
+            <PostalCode>4068</PostalCode>
+            <City>STAVANGER</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-27T18:22:19.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>27.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>18.22</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Sendingen er innlevert på postkontor</Description>
+            <Status>HANDED_IN</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId>140117</UnitId>
+            <PostalCode>4067</PostalCode>
+            <City>STAVANGER</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-27T16:16:37.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>27.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>16.16</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+</ConsignmentSet>

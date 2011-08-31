@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package packageId="0">
+  <!--Les vilkår for bruk på http://fraktguide.bring.no/-->
+  <Product>
+    <ProductId>SERVICEPAKKE</ProductId>
+    <ProductCodeInProductionSystem>1202</ProductCodeInProductionSystem>
+    <GuiInformation>
+      <SortOrder>11</SortOrder>
+      <MainDisplayCategory>Hent sendingen selv</MainDisplayCategory>
+      <SubDisplayCategory/>
+      <DisplayName>På postkontor eller post i butikk</DisplayName>
+      <ProductName>Klimanøytral Servicepakke</ProductName>
+      <DescriptionText>Vinterbro Post i Butikk, COOP OBS Vinterbro. Åpningstider Man - Fre: 1000-2100, Lør: 0900-1800</DescriptionText>
+      <HelpText>Sendingen er en Klimanøytral Servicepakke som blir levert til mottakers postkontor/ post i butikk. Mottaker kan velge å hente sendingen på et annet postkontor/post i butikk enn sitt lokale. Mottaker varsles om at sendingen er ankommet via SMS, e-post eller hentemelding i postkassen. Transporttid er normalt 1-3 virkedager, avhengig av strekning. Sendingen kan spores ved hjelp av sporingsnummeret.</HelpText>
+      <Tip/>
+    </GuiInformation>
+    <Price currencyIdentificationCode="NOK">
+      <PackagePriceWithoutAdditionalServices>
+        <AmountWithoutVAT>78.00</AmountWithoutVAT>
+        <VAT>19.50</VAT>
+        <AmountWithVAT>97.50</AmountWithVAT>
+      </PackagePriceWithoutAdditionalServices>
+    </Price>
+    <ExpectedDelivery>
+      <WorkingDays>2</WorkingDays>
+      <UserMessage/>
+      <FormattedExpectedDeliveryDate>05.02.2009</FormattedExpectedDeliveryDate>
+      <ExpectedDeliveryDate>
+        <Year>2009</Year>
+        <Month>2</Month>
+        <Day>5</Day>
+      </ExpectedDeliveryDate>
+      <AlternativeDeliveryDates/>
+    </ExpectedDelivery>
+  </Product>
+  <TraceMessages>
+    <Message>Defaulting to current time of day as no hour and minute component present in date time element.</Message>
+  </TraceMessages>
+</Package>

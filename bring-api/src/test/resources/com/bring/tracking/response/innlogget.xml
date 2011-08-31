@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConsignmentSet xmlns="http://www.bring.no/sporing/1.0">
+  <!--Les vilkår for bruk på http://fraktguide.bring.no/-->
+  <!--User: svein.halvorsen@infocare.no-->
+  <Consignment consignmentId="70713750043844504">
+    <TotalWeight unitCode="kg">65.0</TotalWeight>
+    <TotalVolume unitCode="dm3">0.0</TotalVolume>
+    <PackageSet>
+      <Package packageId="370713750081703116">
+        <StatusDescription/>
+        <ProductName>TØRR (BIL)</ProductName>
+        <ProductCode/>
+        <Brand>BRING</Brand>
+        <Weight/>
+        <Length/>
+        <Width/>
+        <Height/>
+        <Volume/>
+        <EventSet>
+          <Event>
+            <Description>Godset er levert til mottaker</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>anna</Name>
+              <LinkToImage>http://amphora.norcargo.no/track/servlet/axia.amphora.module.trackandtrace.SignatureServlet?id=17881579</LinkToImage>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5430</PostalCode>
+            <City>BREMNES</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-01T14:25:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>01.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>14.25</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Godset kjøres ut til mottaker</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5501</PostalCode>
+            <City>HAUGESUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-01T07:59:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>01.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>07.59</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Godset har ankommet avsenderterminal</Description>
+            <Status>TERMINAL</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5501</PostalCode>
+            <City>HAUGESUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-05-31T15:56:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>31.05.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.56</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+      <Package packageId="370713750081703123">
+        <StatusDescription/>
+        <ProductName>TØRR (BIL)</ProductName>
+        <ProductCode/>
+        <Brand>BRING</Brand>
+        <Weight/>
+        <Length/>
+        <Width/>
+        <Height/>
+        <Volume/>
+        <EventSet>
+          <Event>
+            <Description>Godset er levert til mottaker</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>anna</Name>
+              <LinkToImage>http://amphora.norcargo.no/track/servlet/axia.amphora.module.trackandtrace.SignatureServlet?id=17881579</LinkToImage>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5430</PostalCode>
+            <City>BREMNES</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-01T14:25:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>01.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>14.25</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Godset kjøres ut til mottaker</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5501</PostalCode>
+            <City>HAUGESUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-01T07:59:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>01.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>07.59</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Godset har ankommet avsenderterminal</Description>
+            <Status>TERMINAL</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5501</PostalCode>
+            <City>HAUGESUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-05-31T15:56:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>31.05.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.56</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+      <Package packageId="370713750081703130">
+        <StatusDescription/>
+        <ProductName>TØRR (BIL)</ProductName>
+        <ProductCode/>
+        <Brand>BRING</Brand>
+        <Weight/>
+        <Length/>
+        <Width/>
+        <Height/>
+        <Volume/>
+        <EventSet>
+          <Event>
+            <Description>Godset er levert til mottaker</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>anna</Name>
+              <LinkToImage>http://amphora.norcargo.no/track/servlet/axia.amphora.module.trackandtrace.SignatureServlet?id=17881579</LinkToImage>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5430</PostalCode>
+            <City>BREMNES</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-01T14:25:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>01.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>14.25</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Godset kjøres ut til mottaker</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5501</PostalCode>
+            <City>HAUGESUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-01T07:59:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>01.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>07.59</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Godset har ankommet avsenderterminal</Description>
+            <Status>TERMINAL</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5501</PostalCode>
+            <City>HAUGESUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-05-31T15:56:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>31.05.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.56</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+      <Package packageId="370713750081703147">
+        <StatusDescription/>
+        <ProductName>TØRR (BIL)</ProductName>
+        <ProductCode/>
+        <Brand>BRING</Brand>
+        <Weight/>
+        <Length/>
+        <Width/>
+        <Height/>
+        <Volume/>
+        <EventSet>
+          <Event>
+            <Description>Godset er levert til mottaker</Description>
+            <Status>DELIVERED</Status>
+            <RecipientSignature>
+              <Name>anna</Name>
+              <LinkToImage>http://amphora.norcargo.no/track/servlet/axia.amphora.module.trackandtrace.SignatureServlet?id=17881579</LinkToImage>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5430</PostalCode>
+            <City>BREMNES</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-01T14:25:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>01.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>14.25</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Godset kjøres ut til mottaker</Description>
+            <Status>TRANSPORT_TO_RECIPIENT</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5501</PostalCode>
+            <City>HAUGESUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-06-01T07:59:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>01.06.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>07.59</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+          <Event>
+            <Description>Godset har ankommet avsenderterminal</Description>
+            <Status>TERMINAL</Status>
+            <RecipientSignature>
+              <Name/>
+            </RecipientSignature>
+            <UnitId/>
+            <PostalCode>5501</PostalCode>
+            <City>HAUGESUND</City>
+            <CountryCode>NO</CountryCode>
+            <Country>Norway</Country>
+            <OccuredAtIsoDateTime>2011-05-31T15:56:00.000+02:00</OccuredAtIsoDateTime>
+            <OccuredAtDisplayDate>31.05.2011</OccuredAtDisplayDate>
+            <OccuredAtDisplayTime>15.56</OccuredAtDisplayTime>
+            <ConsignmentEvent>false</ConsignmentEvent>
+          </Event>
+        </EventSet>
+      </Package>
+    </PackageSet>
+  </Consignment>
+</ConsignmentSet>

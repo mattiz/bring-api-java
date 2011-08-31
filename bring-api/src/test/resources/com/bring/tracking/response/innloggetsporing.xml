@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConsignmentSet xmlns="http://www.bring.no/sporing/1.0">
+	<Consignment consignmentId="70716480634236339">
+		<TotalWeight unitCode="kg">5.0</TotalWeight>
+		<TotalVolume unitCode="dm3">0.0</TotalVolume>
+		<PackageSet>
+			<Package packageId="370716480634236347">
+				<StatusDescription></StatusDescription>
+				<ProductName>TØRR (BIL)</ProductName>
+				<ProductCode></ProductCode>
+				<Brand>BRING</Brand>
+				<Weight unitCode="kg"></Weight>
+				<Length unitCode="cm"></Length>
+				<Width unitCode="cm"></Width>
+				<Height unitCode="cm"></Height>
+				<Volume unitCode="dm3"></Volume>
+				<EventSet>
+					<Event>
+						<Description>Godset har ankommet terminal</Description>
+						<Status>TERMINAL</Status>
+						<RecipientSignature>
+							<Name></Name>
+						</RecipientSignature>
+						<UnitId></UnitId>
+						<PostalCode>0102</PostalCode>
+						<City>OSLO</City>
+						<CountryCode>NO</CountryCode>
+						<Country>Norway</Country>
+						<OccuredAtIsoDateTime>2011-06-28T04:06:00.000+02:00
+						</OccuredAtIsoDateTime>
+						<OccuredAtDisplayDate>28.06.2011</OccuredAtDisplayDate>
+						<OccuredAtDisplayTime>04.06</OccuredAtDisplayTime>
+						<ConsignmentEvent>false</ConsignmentEvent>
+					</Event>
+					<Event>
+						<Description>Godset er under transport</Description>
+						<Status>IN_TRANSIT</Status>
+						<RecipientSignature>
+							<Name></Name>
+						</RecipientSignature>
+						<UnitId></UnitId>
+						<PostalCode>4636</PostalCode>
+						<City>KRISTIANSAND S</City>
+						<CountryCode>NO</CountryCode>
+						<Country>Norway</Country>
+						<OccuredAtIsoDateTime>2011-06-27T17:07:00.000+02:00
+						</OccuredAtIsoDateTime>
+						<OccuredAtDisplayDate>27.06.2011</OccuredAtDisplayDate>
+						<OccuredAtDisplayTime>17.07</OccuredAtDisplayTime>
+						<ConsignmentEvent>false</ConsignmentEvent>
+					</Event>
+				</EventSet>
+			</Package>
+		</PackageSet>
+	</Consignment>
+</ConsignmentSet>

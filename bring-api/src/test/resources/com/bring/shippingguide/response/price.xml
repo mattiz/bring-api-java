@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package packageId="0">
+	<!--Les vilkår for bruk på http://fraktguide.bring.no/ -->
+	<!-- http://fraktguide.bring.no/fraktguide/products/SERVICEPAKKE/price.xml?weightInGrams=1500&from=7600&to=1407 -->
+	<Product>
+		<ProductId>SERVICEPAKKE</ProductId>
+		<ProductCodeInProductionSystem>1202</ProductCodeInProductionSystem>
+		<Price currencyIdentificationCode="NOK">
+			<PackagePriceWithoutAdditionalServices>
+				<AmountWithoutVAT>81.00</AmountWithoutVAT>
+				<VAT>20.25</VAT>
+				<AmountWithVAT>101.25</AmountWithVAT>
+			</PackagePriceWithoutAdditionalServices>
+		</Price>
+	</Product>
+	<TraceMessages />
+</Package>

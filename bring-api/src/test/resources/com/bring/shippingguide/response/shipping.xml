@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package packageId="0">
+  <!--Les vilkår for bruk på http://fraktguide.bring.no/-->
+  <Product>
+    <ProductId>SERVICEPAKKE</ProductId>
+    <ProductCodeInProductionSystem>1202</ProductCodeInProductionSystem>
+    <ExpectedDelivery>
+      <WorkingDays>2</WorkingDays>
+      <UserMessage/>
+      <FormattedExpectedDeliveryDate>05.02.2009</FormattedExpectedDeliveryDate>
+      <ExpectedDeliveryDate>
+        <Year>2009</Year>
+        <Month>2</Month>
+        <Day>5</Day>
+      </ExpectedDeliveryDate>
+      <AlternativeDeliveryDates/>
+    </ExpectedDelivery>
+  </Product>
+  <TraceMessages>
+    <Message>Blabla</Message>
+    <Message>En melding</Message>
+  </TraceMessages>
+</Package>

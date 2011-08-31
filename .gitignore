@@ -1,0 +1,13 @@
+target/
+.project
+.classpath
+.settings/
+
+# IDEA
+*.iml
+*.iws
+*.ipr
+./idea
+
+# OS X
+.DS_Store
