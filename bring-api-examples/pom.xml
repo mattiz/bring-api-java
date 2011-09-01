@@ -7,6 +7,12 @@
     <version>0.9.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <parent>
+        <artifactId>bring-api-root</artifactId>
+        <groupId>com.bring</groupId>
+        <version>0.9.1-SNAPSHOT</version>
+    </parent>
+
     <name>bring-api-examples</name>
 
     <properties>
