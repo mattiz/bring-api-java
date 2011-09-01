@@ -23,7 +23,11 @@ public class TrackingQuery {
         this.queryNumber = queryNumber;
         return this;
     }
-    
+
+    public String getQueryNumber() {
+        return queryNumber;
+    }
+
     public String toQueryString() {
         if(queryNumber == null){
             throw new MissingParameterException("Missing query number.");

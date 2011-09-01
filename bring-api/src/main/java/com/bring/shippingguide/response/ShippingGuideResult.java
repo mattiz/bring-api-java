@@ -1,18 +1,16 @@
 package com.bring.shippingguide.response;
 
+import com.bring.shippingguide.request.ProductType;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-
-import com.bring.shippingguide.request.ProductType;
-
 @XmlRootElement(name = "Package")
 public class ShippingGuideResult {
-    @XmlElement(name = "Product")
     private List<Product> products = new ArrayList<Product>();
     private Map<ProductType, Product> productsMap = null;
     private String packageId;
@@ -27,9 +25,18 @@ public class ShippingGuideResult {
         }
         return new HashMap<ProductType,Product>(productsMap);
     }
-    
+
     public Product getProduct(ProductType productDesc){
         return getProducts().get(productDesc);
+    }
+
+    public List<Product> getProductList() {
+        return this.products;
+    }
+
+    @XmlElement(name = "Product")
+    public void setProductList(List<Product> products) {
+        this.products = products;
     }
 
     public String getPackageId() {

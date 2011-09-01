@@ -1,24 +1,17 @@
 package com.bring.tracking.dao;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.xml.bind.JAXBException;
-
 import com.bring.BringParser;
 import com.bring.connection.BringConnection;
-import com.bring.tracking.request.TrackingQuery;
-import com.bring.tracking.response.TrackingResult;
-import com.bring.tracking.response.Consignment;
-import com.bring.tracking.response.Event;
-import com.bring.tracking.response.Package;
-import com.bring.tracking.response.Signature;
 import com.bring.exceptions.RequestFailedException;
 import com.bring.exceptions.UnmarshalException;
+import com.bring.tracking.request.TrackingQuery;
+import com.bring.tracking.response.*;
+import com.bring.tracking.response.Package;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TrackingDao {
 
