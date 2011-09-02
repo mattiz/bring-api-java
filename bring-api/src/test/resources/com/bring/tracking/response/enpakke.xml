@@ -15,6 +15,8 @@
         <Width unitCode="cm">21</Width>
         <Height unitCode="cm">2</Height>
         <Volume unitCode="dm3">1.3</Volume>
+        <PickupCode>KK22</PickupCode>
+        <LastRetrievalDate>2010.12.14</LastRetrievalDate>
         <EventSet>
           <Event>
             <Description>Sendingen er ankommet terminal og blir videresendt</Description>

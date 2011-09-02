@@ -49,6 +49,8 @@
       <xs:element name="Width" type="LengthType"/>
       <xs:element name="Height" type="LengthType"/>
       <xs:element name="Volume" type="VolumeType"/>
+      <xs:element name="PickupCode" type="xs:string"/>
+      <xs:element name="LastRetrievalDate" type="xs:string"/>
       <xs:element name="EventSet" type="EventSetType" minOccurs="0"/>
       <xs:element name="AdditionalServicesSet" type="AdditionalServicesSetType" minOccurs="0"/>
 	</xs:sequence>

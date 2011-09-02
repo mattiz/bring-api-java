@@ -1,15 +1,14 @@
 package com.bring.tracking.response;
 
-import static org.junit.Assert.assertEquals;
+import com.bring.BringParser;
+import com.bring.exceptions.UnmarshalException;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-import com.bring.BringParser;
-import org.junit.Before;
-import org.junit.Test;
-
-import com.bring.exceptions.UnmarshalException;
+import static org.junit.Assert.assertEquals;
 
 public class BringParserTrackingTest {
     BringParser<TrackingResult> parser;
@@ -155,6 +154,20 @@ public class BringParserTrackingTest {
         assertEquals("dm3", result.getUnitCode());
         assertEquals("1.3", result.getValue());
     }
+
+    @Test
+    public void shouldParseReturDatoFromEnpakkeXml(){
+    	String returDato = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getLastRetrievalDate();
+    	assertEquals("2010.12.14", returDato);
+    }
+
+    @Test
+    public void shouldParseHentekodeFromEnpakkeXml(){
+    	String pickupCode = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getPickupCode();
+    	assertEquals("KK22", pickupCode);
+    }
+
+
     
     @Test
     public void shouldBeAbleToGetOneConsignmentDirectly() throws UnmarshalException {

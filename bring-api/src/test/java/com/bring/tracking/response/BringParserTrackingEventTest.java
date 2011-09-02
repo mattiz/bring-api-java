@@ -1,16 +1,15 @@
 package com.bring.tracking.response;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import com.bring.BringParser;
+import com.bring.exceptions.UnmarshalException;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-import com.bring.BringParser;
-import org.junit.Before;
-import org.junit.Test;
-
-import com.bring.exceptions.UnmarshalException;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class BringParserTrackingEventTest {
     BringParser<TrackingResult> parser;
@@ -110,6 +109,6 @@ public class BringParserTrackingEventTest {
     public void shouldParseEventConsignmentEventFromEnpakkeXml(){
     	boolean ce = eventSet.getEvents().get(0).isConsignmentEvent();
     	assertEquals(false, ce);
-    } 
-    
+    }
+
 }

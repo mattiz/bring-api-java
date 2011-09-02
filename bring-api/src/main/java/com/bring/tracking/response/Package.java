@@ -18,6 +18,8 @@ import javax.xml.bind.annotation.XmlType;
     "width",
     "height",
     "volume",
+    "pickupCode",
+    "lastRetrievalDate",
     "eventSet",
     "additionalServicesSet"
 })
@@ -41,6 +43,10 @@ public class Package {
     protected Length height;
     @XmlElement(name = "Volume", required = true)
     protected Volume volume;
+    @XmlElement(name = "PickupCode", required = true)
+    protected String pickupCode;
+    @XmlElement(name = "LastRetrievalDate", required = true)
+    protected String lastRetrievalDate;
     @XmlElement(name = "EventSet")
     protected EventSet eventSet;
     @XmlElement(name = "AdditionalServicesSet")
@@ -148,4 +154,19 @@ public class Package {
         return eventSet.getEvent(i);
     }
 
+    public String getPickupCode() {
+        return pickupCode;
+    }
+
+    public void setPickupCode(String pickupCode) {
+        this.pickupCode = pickupCode;
+    }
+
+    public String getLastRetrievalDate() {
+        return lastRetrievalDate;
+    }
+
+    public void setLastRetrievalDate(String lastRetrievalDate) {
+        this.lastRetrievalDate = lastRetrievalDate;
+    }
 }
