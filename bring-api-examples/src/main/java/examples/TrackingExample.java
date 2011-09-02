@@ -1,9 +1,9 @@
 package examples;
 
-import com.bring.BringService;
-import com.bring.exceptions.RequestFailedException;
-import com.bring.tracking.request.TrackingQuery;
-import com.bring.tracking.response.TrackingResult;
+import com.bring.api.BringService;
+import com.bring.api.exceptions.RequestFailedException;
+import com.bring.api.tracking.request.TrackingQuery;
+import com.bring.api.tracking.response.TrackingResult;
 
 public class TrackingExample {
     public TrackingExample() throws RequestFailedException{

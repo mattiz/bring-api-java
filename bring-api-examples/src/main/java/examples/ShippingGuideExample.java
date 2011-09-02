@@ -1,12 +1,12 @@
 package examples;
 
-import com.bring.BringService;
-import com.bring.exceptions.RequestFailedException;
-import com.bring.shippingguide.request.Package;
-import com.bring.shippingguide.request.ProductType;
-import com.bring.shippingguide.request.QueryType;
-import com.bring.shippingguide.request.Shipment;
-import com.bring.shippingguide.response.ShippingGuideResult;
+import com.bring.api.BringService;
+import com.bring.api.exceptions.RequestFailedException;
+import com.bring.api.shippingguide.request.Package;
+import com.bring.api.shippingguide.request.ProductType;
+import com.bring.api.shippingguide.request.QueryType;
+import com.bring.api.shippingguide.request.Shipment;
+import com.bring.api.shippingguide.response.ShippingGuideResult;
 
 public class ShippingGuideExample {
     public ShippingGuideExample() throws RequestFailedException {
