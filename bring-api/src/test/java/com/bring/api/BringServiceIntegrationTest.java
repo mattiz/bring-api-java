@@ -1,7 +1,6 @@
 package com.bring.api;
 
-import static org.junit.Assert.assertEquals;
-
+import com.bring.api.exceptions.RequestFailedException;
 import com.bring.api.shippingguide.request.Package;
 import com.bring.api.shippingguide.request.QueryType;
 import com.bring.api.shippingguide.request.Shipment;
@@ -9,7 +8,7 @@ import com.bring.api.shippingguide.response.ShippingGuideResult;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.bring.api.exceptions.RequestFailedException;
+import static org.junit.Assert.assertEquals;
 
 public class BringServiceIntegrationTest {
     Shipment shipment;

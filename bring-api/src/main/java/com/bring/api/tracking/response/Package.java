@@ -20,6 +20,9 @@ import javax.xml.bind.annotation.XmlType;
     "volume",
     "pickupCode",
     "lastRetrievalDate",
+    "senderName",
+    "recipientName",
+    "recipientAddress",
     "eventSet",
     "additionalServicesSet"
 })
@@ -47,6 +50,12 @@ public class Package {
     protected String pickupCode;
     @XmlElement(name = "LastRetrievalDate", required = true)
     protected String lastRetrievalDate;
+    @XmlElement(name = "SenderName", required = true)
+    protected String senderName;
+    @XmlElement(name = "RecipientName", required = true)
+    protected String recipientName;
+    @XmlElement(name = "RecipientAddress", required = true)
+    protected Address recipientAddress;
     @XmlElement(name = "EventSet")
     protected EventSet eventSet;
     @XmlElement(name = "AdditionalServicesSet")
@@ -168,5 +177,29 @@ public class Package {
 
     public void setLastRetrievalDate(String lastRetrievalDate) {
         this.lastRetrievalDate = lastRetrievalDate;
+    }
+
+    public String getSenderName() {
+        return senderName;
+    }
+
+    public void setSenderName(String senderName) {
+        this.senderName = senderName;
+    }
+
+    public String getRecipientName() {
+        return recipientName;
+    }
+
+    public void setRecipientName(String recipientName) {
+        this.recipientName = recipientName;
+    }
+
+    public Address getRecipientAddress() {
+        return recipientAddress;
+    }
+
+    public void setRecipientAddress(Address recipientAddress) {
+        this.recipientAddress = recipientAddress;
     }
 }

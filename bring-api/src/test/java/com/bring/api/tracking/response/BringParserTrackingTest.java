@@ -15,13 +15,17 @@ public class BringParserTrackingTest {
     InputStream enpakkeXml;
     InputStream noshipmentsXml;
     TrackingResult consignmentSet;
-    
+    Package openPackage;
+
     @Before
     public void setUp() throws FileNotFoundException, UnmarshalException {
         parser = new BringParser<TrackingResult>(TrackingResult.class);
+
         enpakkeXml = getClass().getResourceAsStream("enpakke.xml");
         noshipmentsXml = getClass().getResourceAsStream("noshipments.xml");
+
         consignmentSet = parser.unmarshal(enpakkeXml);
+        openPackage = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0);
     }
     
     @Test(expected = UnmarshalException.class)
@@ -90,7 +94,7 @@ public class BringParserTrackingTest {
     
     @Test
     public void shouldParsePackageFromEnpakkeXml() throws UnmarshalException {
-        Package pack = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0);
+        Package pack = openPackage;
         String packId = pack.getPackageId();
         assertEquals(Package.class, pack.getClass());
         assertEquals("370438101015432114", packId);
@@ -98,77 +102,75 @@ public class BringParserTrackingTest {
     
     @Test
     public void shouldParseStatusDescriptionFromEnpakkeXml() throws UnmarshalException {
-        String result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getStatusDescription();
+        String result = openPackage.getStatusDescription();
         assertEquals("Pakken leveres til mottaker og kan ikke hentes på terminal", result);
     }
     
     @Test
     public void shouldParseProductNameFromEnpakkeXml() throws UnmarshalException {
-        String result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getProductName();
+        String result = openPackage.getProductName();
         assertEquals("BEDRIFTSPAKKE DØR - DØR INNLAND", result);
     }
     
     @Test
     public void shouldParseProductCodeFromEnpakkeXml() throws UnmarshalException {
-        String result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getProductCode();
+        String result = openPackage.getProductCode();
         assertEquals("1000", result);
     }
     
     @Test
     public void shouldParseBrandFromEnpakkeXml() throws UnmarshalException {
-        String result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getBrand();
+        String result = openPackage.getBrand();
         assertEquals("BRING", result);
     }
     
     @Test
     public void shouldParseWeightFromEnpakkeXml() throws UnmarshalException {
-        Weight result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getWeight();
+        Weight result = openPackage.getWeight();
         assertEquals("kg", result.getUnitCode());
         assertEquals("1.7", result.getValue());
     }
     
     @Test
     public void shouldParseLengthFromEnpakkeXml() throws UnmarshalException {
-        Length result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getLength();
+        Length result = openPackage.getLength();
         assertEquals("cm", result.getUnitCode());
         assertEquals("30", result.getValue());
     }
     
     @Test
     public void shouldParseWidthFromEnpakkeXml() throws UnmarshalException {
-        Length result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getWidth();
+        Length result = openPackage.getWidth();
         assertEquals("cm", result.getUnitCode());
         assertEquals("21", result.getValue());
     }
     
     @Test
     public void shouldParseHeightFromEnpakkeXml() throws UnmarshalException {
-        Length result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getHeight();
+        Length result = openPackage.getHeight();
         assertEquals("cm", result.getUnitCode());
         assertEquals("2", result.getValue());
     }
     
     @Test
     public void shouldParseVolumeFromEnpakkeXml() throws UnmarshalException {
-        Volume result = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getVolume();
+        Volume result = openPackage.getVolume();
         assertEquals("dm3", result.getUnitCode());
         assertEquals("1.3", result.getValue());
     }
 
     @Test
     public void shouldParseReturDatoFromEnpakkeXml(){
-    	String returDato = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getLastRetrievalDate();
+    	String returDato = openPackage.getLastRetrievalDate();
     	assertEquals("2010.12.14", returDato);
     }
 
     @Test
     public void shouldParseHentekodeFromEnpakkeXml(){
-    	String pickupCode = consignmentSet.getConsignments().get(0).getPackageSet().getPackages().get(0).getPickupCode();
+    	String pickupCode = openPackage.getPickupCode();
     	assertEquals("KK22", pickupCode);
     }
 
-
-    
     @Test
     public void shouldBeAbleToGetOneConsignmentDirectly() throws UnmarshalException {
         Consignment consignment = consignmentSet.getConsignment(0);
