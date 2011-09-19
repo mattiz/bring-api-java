@@ -70,9 +70,11 @@ public class TrackingDao {
 
     private void convertSignatureUrlsToFullUrl(TrackingResult trackingResult, String urlPrefix) {
         for (Consignment consignment : trackingResult.getConsignments()) {
-            for (Package packet : consignment.getPackageSet().getPackages()) {
-                for (Event event : packet.getEventSet().getEvents()) {
-                    convertToFullUrl(event, urlPrefix);
+            if (consignment.getPackageSet() != null && consignment.getPackageSet().getPackages() != null) {
+                for (Package packet : consignment.getPackageSet().getPackages()) {
+                    for (Event event : packet.getEventSet().getEvents()) {
+                        convertToFullUrl(event, urlPrefix);
+                    }
                 }
             }
         }
