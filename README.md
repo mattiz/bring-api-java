@@ -6,8 +6,10 @@ Introduction
 
 This repository contains an open source client library for:
 
-- [Bring Tracking](http://sporing.bring.no/developer.html)
-- [Bring Shipment Guide](http://fraktguide.bring.no)
+- [Bring Tracking](http://developer.bring.com/learn/tracking/apireference.html)
+- [Bring Shipment Guide](http://developer.bring.com/learn/shipping-guide/documentation/apireference.html)
+
+[Javadoc is also available.](http://bring.github.com/bring-api-java/1.0.0/)
 
 License
 -------
@@ -50,7 +52,37 @@ Installation
 ------------
 
 Download jar-file (include as library in your project), or add [Maven](http://maven.apache.org/) dependency 
-(TODO: add maven dependency xml).
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bring</groupId>
+            <artifactId>bring-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+To use with [HttpComponents/HttpClient 4](http://hc.apache.org/httpcomponents-client-ga/), you should also include this jar:
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bring</groupId>
+            <artifactId>bring-api-httpclient4</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+
+To use with [HttpClient 3](http://hc.apache.org/httpclient-3.x/), you should also include this jar:
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bring</groupId>
+            <artifactId>bring-api-httpclient3</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+
 
 Usage
 -----
