@@ -1,0 +1,9 @@
+com.bring.api
+com.bring.api.connection
+com.bring.api.exceptions
+com.bring.api.shippingguide.dao
+com.bring.api.shippingguide.request
+com.bring.api.shippingguide.response
+com.bring.api.tracking.dao
+com.bring.api.tracking.request
+com.bring.api.tracking.response
