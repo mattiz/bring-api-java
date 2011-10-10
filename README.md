@@ -143,6 +143,23 @@ Fetch tracking information from Bring Tracking:
     	System.out.println("Total weight:" + totalWeight);
 
 
+HttpClient
+----------
+
+The library will autodect if you put bring-api-httpclient4 or bring-api-httpclient3 on you classpath,
+and use the corresponding library instead of URLConnection.
+
+To supply your own instance of the HttpClient, you may use the alternate constructor of BringService:
+
+        String clientId = "www.mywebshop.com";
+        BringService bringService = new BringService(new HttpClient4Adapter(clientId, httpClient));
+
+or
+
+        String clientId = "www.mywebshop.com";
+        BringService bringService = new BringService(new HttpClient3Adapter(clientId, httpClient));
+
+
 Contribute
 ----------
 
