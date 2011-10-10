@@ -1,14 +1,13 @@
 package com.bring.api.tracking.dao;
 
-import static org.junit.Assert.assertEquals;
-
+import com.bring.api.connection.HttpUrlConnectionAdapter;
+import com.bring.api.exceptions.RequestFailedException;
 import com.bring.api.tracking.request.TrackingQuery;
+import com.bring.api.tracking.response.TrackingResult;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.bring.api.connection.HttpUrlConnectionAdapter;
-import com.bring.api.tracking.response.TrackingResult;
-import com.bring.api.exceptions.RequestFailedException;
+import static org.junit.Assert.assertEquals;
 
 public class TrackingDaoIntegrationTest {
     TrackingDao dao;
@@ -48,8 +47,8 @@ public class TrackingDaoIntegrationTest {
     
     @Test
     public void shouldBeAbleToPrepareSignatureWithFullUrl() throws RequestFailedException {
-        TrackingResult cs = dao.query(new TrackingQuery("70426101183957512"));
+        TrackingResult cs = dao.query(new TrackingQuery("70713750048425531"));
         String url = cs.getConsignment(0).getPackage(0).getEvent(0).getSignature().getLinkToImage();
-        assertEquals("http://amphora.norcargo.no/track/servlet/axia.amphora.module.trackandtrace.SignatureServlet?id=18321547", url);
+        assertEquals("http://amphora.norcargo.no/track/servlet/axia.amphora.module.trackandtrace.SignatureServlet?id=18561720", url);
     }
 }
