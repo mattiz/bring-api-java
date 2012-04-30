@@ -73,7 +73,7 @@ public class ShippingGuideDaoIntegrationTest {
         
         shipment.addProduct(ProductType.SERVICEPAKKE);
         ShippingGuideResult result = dao.query(shipment, QueryType.PRICE);
-        assertEquals("174.00", result.getProducts().get(ProductType.SERVICEPAKKE).getPrice().getPackagePriceWithoutAdditionalServices().getAmountWithoutVAT());
+        assertEquals("178.00", result.getProducts().get(ProductType.SERVICEPAKKE).getPrice().getPackagePriceWithoutAdditionalServices().getAmountWithoutVAT());
     }
     
     @Test(expected = RequestFailedException.class)
