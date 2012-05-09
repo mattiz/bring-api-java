@@ -168,3 +168,13 @@ For those of you that would like to contribute, we have some suggestions:
 - Module for [offline data](http://developer.bring.com/learn/shipping-guide/documentation/offlinedata.html) (for use if the shipment guide is unavailable)
 - [Postal code validation](http://developer.bring.com/learn/postalcode/apireference.html)
 - [Postal office chooser](http://developer.bring.com/learn/pickuppoint/apireference.html), based on postal code
+
+
+Release new version (change version numbers)
+--------------------------------------------
+
+    $ mvn release:prepare -DdevelopmentVersion=1.0.2-SNAPSHOT -DautoVersionSubmodules=true -DreleaseVersion=1.0.1 -Dtag=bring-api-java-1.0.1
+    $ mvn release:perform -Darguments="-Dmaven.test.skip=true"
+
+
+
