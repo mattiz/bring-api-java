@@ -186,7 +186,7 @@ public class Package {
         return estimatedDeliveryDate;
     }
 
-    public void setEsti(String estimatedDeliveryDate) {
+    public void setEstimatedDeliveryDate(String estimatedDeliveryDate) {
         this.estimatedDeliveryDate = estimatedDeliveryDate;
     }
 
