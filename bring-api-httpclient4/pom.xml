@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bring</groupId>
 	<artifactId>bring-api-httpclient4</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>Bring API HttpClient 4 Adapter</name>
     <url>http://developer.bring.com</url>
 
     <parent>
         <artifactId>bring-api-root</artifactId>
         <groupId>com.bring</groupId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
 
 	<dependencies>
@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>com.bring</groupId>
 			<artifactId>bring-api</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.3-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>

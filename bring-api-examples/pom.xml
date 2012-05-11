@@ -3,13 +3,13 @@
 
     <groupId>com.bring</groupId>
     <artifactId>bring-api-examples</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
         <artifactId>bring-api-root</artifactId>
         <groupId>com.bring</groupId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
 
     <name>bring-api-examples</name>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.bring</groupId>
             <artifactId>bring-api</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>com.bring</groupId>
             <artifactId>bring-api-httpclient4</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
