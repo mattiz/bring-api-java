@@ -1,6 +1,5 @@
 package com.bring.api.shippingguide.request;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -15,8 +14,12 @@ public enum ProductType {
     EKSPRESS09("EKSPRESS09"),
     A_POST("A-POST"), 
     B_POST("B-POST"), 
-    QUICKPACK("QUICKPACK"), 
-    CARRYON_BUSINESS_NORWAY("CARRYON_BUSINESS_NORWAY"), 
+    QUICKPACK_SAMEDAY("QUICKPACK_SAMEDAY"),
+    QUICKPACK_OVER_NIGHT_0900("QUICKPACK_OVER_NIGHT_0900"),
+    QUICKPACK_OVER_NIGHT_1200("QUICKPACK_OVER_NIGHT_1200"),
+    QUICKPACK_DAY_CERTAIN("QUICKPACK_DAY_CERTAIN"),
+    QUICKPACK_EXPRESS_ECONOMY("QUICKPACK_EXPRESS_ECONOMY"),
+    CARRYON_BUSINESS_NORWAY("CARRYON_BUSINESS_NORWAY"),
     CARRYON_BUSINESS_SWEDEN("CARRYON_BUSINESS_SWEDEN"), 
     CARRYON_BUSINESS_DENMARK("CARRYON_BUSINESS_DENMARK"), 
     CARRYON_BUSINESS_FINLAND("CARRYON_BUSINESS_FINLAND"), 
@@ -25,13 +28,19 @@ public enum ProductType {
     CARRYON_HOMESHOPPING_DENMARK("CARRYON_HOMESHOPPING_DENMARK"), 
     CARRYON_HOMESHOPPING_FINLAND("CARRYON_HOMESHOPPING_FINLAND"), 
     HOMEDELIVERY_CURBSIDE_DAG("HOMEDELIVERY_CURBSIDE_DAG"), 
-    COURIER_VIP("COURIER_VIP"), COURIER_1H("COURIER_1H"), 
+    COURIER_VIP("COURIER_VIP"),
+    COURIER_1H("COURIER_1H"),
     COURIER_2H("COURIER_2H"), 
     COURIER_4H("COURIER_4H"), 
-    COURIER_6H("COURIER_6H"), ALL("");
+    COURIER_6H("COURIER_6H"),
+    COURIER_BICYCLE_VIP("COURIER_BICYCLE_VIP"),
+    COURIER_BICYCLE_1H("COURIER_BICYCLE_1H"),
+    COURIER_BICYCLE_2H("COURIER_BICYCLE_2H"),
+    COURIER_BICYCLE_4H("COURIER_BICYCLE_4H"),
+    COURIER_BICYCLE_6H("COURIER_BICYCLE_6H"),
+    ALL("");
 
     private final String queryName;
-    private static Map<String, ProductType> reverse;
 
     private ProductType(String queryName) {
         this.queryName = queryName;
@@ -42,13 +51,12 @@ public enum ProductType {
     }
     
     public static ProductType createFromQueryName(String name) {
-        if (reverse == null) {
-            reverse = new HashMap<String, ProductType>();
-            for (ProductType product : ProductType.values()) {
-                reverse.put(product.getQueryName(), product);
+        for (ProductType productType : values()) {
+            if (productType.getQueryName().equals(name)) {
+                return productType;
             }
         }
-        return reverse.get(name);
+        throw new IllegalArgumentException("Unknown product: " + name);
     }
     
 }

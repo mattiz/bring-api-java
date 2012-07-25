@@ -18,6 +18,7 @@ public class ShippingGuideExample {
         // Prepare query
         Package packet = new Package();
         packet.withWeightInGrams("4233");
+
         Shipment shipment = new Shipment();
         shipment.withFromPostalCode("1409");
         shipment.withToPostalCode("7050");

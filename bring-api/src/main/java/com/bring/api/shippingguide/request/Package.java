@@ -2,6 +2,9 @@ package com.bring.api.shippingguide.request;
 
 import com.bring.api.exceptions.IllegalDimensionException;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 /**
  * Weight, volume or length, width and height must be set before querying Bring.
  */
@@ -80,7 +83,16 @@ public class Package {
         this.weightInGrams = weightInGrams;
         return this;
     }
-    
+
+    public Package withWeightInKgs(String weightInKgs) {
+        if (weightInKgs == null) {
+            throw new IllegalArgumentException("Weight must be set");
+        }
+        BigDecimal weight = new BigDecimal(weightInKgs);
+        this.weightInGrams = weight.multiply(new BigDecimal(1000)).setScale(0, RoundingMode.HALF_UP).toString();
+        return this;
+    }
+
     /**
      * @param suffix Used to append suffix to weightInGrams and volume (e.g. volume4=..)
      * @return String to be used in HTTP GET request

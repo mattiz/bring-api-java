@@ -17,7 +17,7 @@ public class TrackingDaoIntegrationTest {
     public void setUp() throws RequestFailedException {
         dao = new TrackingDao(new HttpUrlConnectionAdapter("test"));
         TrackingQuery query = new TrackingQuery();
-        query.withQueryNumber("70438101015432113");
+        query.withQueryNumber("TESTPACKAGELOADEDFORDELIVERY");
         cst = dao.query(query);
     }
     
@@ -29,7 +29,7 @@ public class TrackingDaoIntegrationTest {
     @Test
     public void shouldFindTotalWeigthOnValidSearch() throws RequestFailedException {
         String totalWeight = cst.getConsignments().get(0).getTotalWeight().getValue();
-        assertEquals("1.7", totalWeight);
+        assertEquals("16.5", totalWeight);
     }
     
     @Test(expected = RequestFailedException.class)

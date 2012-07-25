@@ -1,5 +1,6 @@
 package com.bring.api.shippingguide.dao;
 
+import static java.lang.Double.parseDouble;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -73,9 +74,26 @@ public class ShippingGuideDaoIntegrationTest {
         
         shipment.addProduct(ProductType.SERVICEPAKKE);
         ShippingGuideResult result = dao.query(shipment, QueryType.PRICE);
-        assertEquals("178.00", result.getProducts().get(ProductType.SERVICEPAKKE).getPrice().getPackagePriceWithoutAdditionalServices().getAmountWithoutVAT());
+        String price = result.getProducts().get(ProductType.SERVICEPAKKE).getPrice().getPackagePriceWithoutAdditionalServices().getAmountWithoutVAT();
+        assertTrue("Was: " + price, parseDouble(price) > 100);
     }
-    
+
+    @Test
+    public void shouldFindCorrectCourierPrice() throws RequestFailedException {
+        shipment = new Shipment();
+        shipment.withFromPostalCode("1068");
+        shipment.withToPostalCode("0484");
+
+        Package packet1 = new Package();
+        packet1.withWeightInGrams("500000");
+        shipment.addPackage(packet1);
+
+        shipment.addProduct(ProductType.COURIER_VIP);
+        ShippingGuideResult result = dao.query(shipment, QueryType.PRICE);
+        String price = result.getProducts().get(ProductType.COURIER_VIP).getPrice().getPackagePriceWithoutAdditionalServices().getAmountWithoutVAT();
+        assertTrue("Was: " + price, parseDouble(price) > 600);
+    }
+
     @Test(expected = RequestFailedException.class)
     public void shouldFailOnInvalidPublicId() throws RequestFailedException {
         shipment.withPublicId("abc123");
