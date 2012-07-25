@@ -1,13 +1,3 @@
-target/
-.project
-.classpath
-.settings/
-
-# IDEA
+.idea/*
 *.iml
-*.iws
-*.ipr
-./idea
-
-# OS X
-.DS_Store
+target/

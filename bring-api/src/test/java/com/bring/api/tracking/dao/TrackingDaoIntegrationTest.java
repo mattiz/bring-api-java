@@ -44,11 +44,5 @@ public class TrackingDaoIntegrationTest {
         TrackingDao trackingDao = new TrackingDao(new HttpUrlConnectionAdapter("test"));
         trackingDao.query(new TrackingQuery("1234567"), "username", "apiKey");
     }
-    
-    @Test
-    public void shouldBeAbleToPrepareSignatureWithFullUrl() throws RequestFailedException {
-        TrackingResult cs = dao.query(new TrackingQuery("70713750048425531"));
-        String url = cs.getConsignment(0).getPackage(0).getEvent(0).getSignature().getLinkToImage();
-        assertEquals("http://amphora.norcargo.no/track/servlet/axia.amphora.module.trackandtrace.SignatureServlet?id=18561720", url);
-    }
+
 }

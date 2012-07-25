@@ -20,6 +20,7 @@ import javax.xml.bind.annotation.XmlType;
     "volume",
     "pickupCode",
     "lastRetrievalDate",
+    "estimatedDeliveryDate",
     "senderName",
     "recipientName",
     "recipientAddress",
@@ -50,6 +51,8 @@ public class Package {
     protected String pickupCode;
     @XmlElement(name = "LastRetrievalDate", required = true)
     protected String lastRetrievalDate;
+    @XmlElement(name = "EstimatedDeliveryDate", required = true)
+    protected String estimatedDeliveryDate;
     @XmlElement(name = "SenderName", required = true)
     protected String senderName;
     @XmlElement(name = "RecipientName", required = true)
@@ -177,6 +180,14 @@ public class Package {
 
     public void setLastRetrievalDate(String lastRetrievalDate) {
         this.lastRetrievalDate = lastRetrievalDate;
+    }
+
+    public String getEstimatedDeliveryDate() {
+        return estimatedDeliveryDate;
+    }
+
+    public void setEstimatedDeliveryDate(String estimatedDeliveryDate) {
+        this.estimatedDeliveryDate = estimatedDeliveryDate;
     }
 
     public String getSenderName() {
