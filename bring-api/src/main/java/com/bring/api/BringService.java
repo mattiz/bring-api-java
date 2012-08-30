@@ -1,5 +1,8 @@
 package com.bring.api;
 
+import com.bring.api.booking.dao.BookingDao;
+import com.bring.api.booking.request.BookingRequest;
+import com.bring.api.booking.response.BookingResponse;
 import com.bring.api.connection.BringConnection;
 import com.bring.api.connection.HttpUrlConnectionAdapter;
 import com.bring.api.exceptions.CouldNotLoadBringConnectionAdapterException;
@@ -23,6 +26,7 @@ public class BringService {
 
     ShippingGuideDao shippingGuideDao;
     TrackingDao trackingDao;
+	BookingDao bookingDao;
     
     /**
      * Constructor that autodetects available BringConnections (i.e. chooses automatically
@@ -90,6 +94,10 @@ public class BringService {
     public TrackingResult queryTracking(TrackingQuery trackingQuery, String apiUserId, String apiKey) throws RequestFailedException {
         return trackingDao.query(trackingQuery, apiUserId, apiKey);
     }
+
+	public BookingResponse bookShipment(BookingRequest bookingRequest, String apiUserId, String apiKey) throws RequestFailedException {
+        return bookingDao.book( bookingRequest, apiUserId, apiKey );
+    }
     
     /**
      * Query for signature image.
@@ -146,6 +154,7 @@ public class BringService {
     private void initDaos(BringConnection conn) {
         shippingGuideDao = new ShippingGuideDao(conn);
         trackingDao = new TrackingDao(conn);
+		bookingDao = new BookingDao( conn );
     }
 
     private void initDaos(BringConnection bringConnection, BringParser<ShippingGuideResult> shippingGuideParser, BringParser<TrackingResult> trackingParser) {
