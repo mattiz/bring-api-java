@@ -6,7 +6,6 @@ import com.bring.api.booking.request.BookingRequest;
 import com.bring.api.booking.response.BookingResponse;
 import com.bring.api.connection.BringConnection;
 import com.bring.api.exceptions.RequestFailedException;
-import com.bring.api.utilities.FileUtilities;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

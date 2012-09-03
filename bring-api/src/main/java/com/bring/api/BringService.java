@@ -15,7 +15,6 @@ import com.bring.api.tracking.dao.TrackingDao;
 import com.bring.api.tracking.request.TrackingQuery;
 import com.bring.api.tracking.response.Signature;
 import com.bring.api.tracking.response.TrackingResult;
-
 import java.io.InputStream;
 import java.lang.reflect.Constructor;
 
