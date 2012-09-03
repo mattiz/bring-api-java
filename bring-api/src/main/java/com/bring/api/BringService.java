@@ -2,7 +2,7 @@ package com.bring.api;
 
 import com.bring.api.booking.dao.BookingDao;
 import com.bring.api.booking.request.BookingRequest;
-import com.bring.api.booking.response.BookingResponse;
+import com.bring.api.booking.response.error.BookingResponse;
 import com.bring.api.connection.BringConnection;
 import com.bring.api.connection.HttpUrlConnectionAdapter;
 import com.bring.api.exceptions.CouldNotLoadBringConnectionAdapterException;
@@ -96,6 +96,7 @@ public class BringService {
     }
 
 	public BookingResponse bookShipment(BookingRequest bookingRequest, String apiUserId, String apiKey) throws RequestFailedException {
+		bookingDao = new BookingDao();
         return bookingDao.book( bookingRequest, apiUserId, apiKey );
     }
     
@@ -154,7 +155,6 @@ public class BringService {
     private void initDaos(BringConnection conn) {
         shippingGuideDao = new ShippingGuideDao(conn);
         trackingDao = new TrackingDao(conn);
-		bookingDao = new BookingDao( conn );
     }
 
     private void initDaos(BringConnection bringConnection, BringParser<ShippingGuideResult> shippingGuideParser, BringParser<TrackingResult> trackingParser) {
