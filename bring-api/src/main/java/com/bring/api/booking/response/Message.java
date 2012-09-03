@@ -1,4 +1,4 @@
-package com.bring.api.booking.response.error;
+package com.bring.api.booking.response;
 
 
 import javax.xml.bind.annotation.XmlAttribute;
@@ -14,4 +14,9 @@ public class Message {
 
 	@XmlValue
 	private String message;
+
+
+	public String getMessage() {
+		return message;
+	}
 }

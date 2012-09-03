@@ -1,4 +1,4 @@
-package com.bring.api.booking.response.error;
+package com.bring.api.booking.response;
 
 
 import javax.xml.bind.annotation.XmlElement;
@@ -12,4 +12,21 @@ public class BookingResponse {
 	@XmlElement(name = "consignment")
 	@XmlElementWrapper(name = "consignments")
 	private List<Consignment> consignments;
+
+	private int httpResponseCode;
+
+
+	public void setHttpResponseCode( int httpResponseCode ) {
+		this.httpResponseCode = httpResponseCode;
+	}
+
+
+	public boolean hasErrors() {
+		return httpResponseCode != 200;
+	}
+
+
+	public List<Consignment> getConsignments() {
+		return consignments;
+	}
 }

@@ -3,7 +3,7 @@ package com.bring.api.booking.dao;
 
 import com.bring.api.booking.BringParser;
 import com.bring.api.booking.request.BookingRequest;
-import com.bring.api.booking.response.error.BookingResponse;
+import com.bring.api.booking.response.BookingResponse;
 import com.bring.api.connection.BringConnection;
 import com.bring.api.exceptions.RequestFailedException;
 import org.apache.http.HttpEntity;
@@ -26,7 +26,6 @@ public class BookingDao {
 
 	public BookingResponse book( BookingRequest bookingRequest, String apiUserId, String apiKey ) throws RequestFailedException {
 		return sendBookingRequest( bookingRequest, apiUserId, apiKey );
-
 	}
 
 
@@ -37,8 +36,11 @@ public class BookingDao {
 
 		try {
 			xmlRequest = new BringParser<BookingRequest>( BookingRequest.class ).marshal( request );
+
 			httpResponse = doPostRequest( xmlRequest, apiUserId, apiKey );
+
 			bookingResponse = new BringParser<BookingResponse>(BookingResponse.class).unmarshal( httpResponse.getEntity().getContent() );
+			bookingResponse.setHttpResponseCode( httpResponse.getStatusLine().getStatusCode() );
 
 		} catch( Exception e ) {
 			e.printStackTrace();

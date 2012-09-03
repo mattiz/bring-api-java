@@ -2,7 +2,7 @@ package com.bring.api;
 
 import com.bring.api.booking.dao.BookingDao;
 import com.bring.api.booking.request.BookingRequest;
-import com.bring.api.booking.response.error.BookingResponse;
+import com.bring.api.booking.response.BookingResponse;
 import com.bring.api.connection.BringConnection;
 import com.bring.api.connection.HttpUrlConnectionAdapter;
 import com.bring.api.exceptions.CouldNotLoadBringConnectionAdapterException;
