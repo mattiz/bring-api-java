@@ -2,6 +2,7 @@ package com.bring.api.booking.response;
 
 
 import com.bring.api.booking.dao.BookingDao;
+import com.bring.api.exceptions.RequestFailedException;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
@@ -39,7 +40,7 @@ public class Consignment {
 	}
 
 
-	public InputStream getLabel() {
+	public InputStream getLabel() throws RequestFailedException {
 		return new BookingDao().getLabel( confirmation.getLinks().getLabels() );
 	}
 }

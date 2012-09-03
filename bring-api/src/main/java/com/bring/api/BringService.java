@@ -95,6 +95,16 @@ public class BringService {
         return trackingDao.query(trackingQuery, apiUserId, apiKey);
     }
 
+	/**
+	 * Book a shipment using the Bring booking API.
+	 * Requires user id and api key.
+	 *
+	 * @param bookingRequest The shipment you want to book.
+	 * @param apiUserId API user identity
+	 * @param apiKey API key
+	 * @return BookingResponse Response object containing shipment numbers, pick-up date and link to labels
+	 * @throws RequestFailedException
+	 */
 	public BookingResponse bookShipment(BookingRequest bookingRequest, String apiUserId, String apiKey) throws RequestFailedException {
 		bookingDao = new BookingDao();
         return bookingDao.book( bookingRequest, apiUserId, apiKey );

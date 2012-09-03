@@ -32,7 +32,7 @@ public class BookingDao {
 	}
 
 
-	private BookingResponse sendBookingRequest( BookingRequest request, String apiUserId, String apiKey ) {
+	private BookingResponse sendBookingRequest( BookingRequest request, String apiUserId, String apiKey ) throws RequestFailedException {
 		byte[] xmlRequest;
 		HttpResponse httpResponse;
 		BookingResponse bookingResponse = null;
@@ -46,14 +46,14 @@ public class BookingDao {
 			bookingResponse.setHttpResponseCode( httpResponse.getStatusLine().getStatusCode() );
 
 		} catch( Exception e ) {
-			e.printStackTrace();
+			throw new RequestFailedException( e );
 		}
 
 		return bookingResponse;
 	}
 
 
-	private HttpResponse doPostRequest( byte[] postData, String apiUserId, String apiKey ) {
+	private HttpResponse doPostRequest( byte[] postData, String apiUserId, String apiKey ) throws RequestFailedException {
 		HttpClient httpClient;
 		HttpEntity entity;
 		HttpPost httpPost;
@@ -76,14 +76,14 @@ public class BookingDao {
 			httpResponse = httpClient.execute(httpPost);
 
 		} catch( Exception e ) {
-			e.printStackTrace();
+			throw new RequestFailedException( e );
 		}
 
 		return httpResponse;
 	}
 
 
-	public InputStream getLabel( String url ) {
+	public InputStream getLabel( String url ) throws RequestFailedException {
 		HttpClient httpClient;
 		HttpGet httpGet;
 		HttpResponse httpResponse = null;
@@ -96,7 +96,7 @@ public class BookingDao {
 			in = httpResponse.getEntity().getContent();
 
 		} catch( Exception e ) {
-			e.printStackTrace();
+			throw new RequestFailedException( e );
 		}
 
 		return in;
