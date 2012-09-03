@@ -6,12 +6,15 @@ import com.bring.api.booking.request.BookingRequest;
 import com.bring.api.booking.response.BookingResponse;
 import com.bring.api.connection.BringConnection;
 import com.bring.api.exceptions.RequestFailedException;
+import com.bring.api.utilities.FileUtilities;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
+import java.io.InputStream;
 import java.net.URI;
 
 
@@ -77,5 +80,25 @@ public class BookingDao {
 		}
 
 		return httpResponse;
+	}
+
+
+	public InputStream getLabel( String url ) {
+		HttpClient httpClient;
+		HttpGet httpGet;
+		HttpResponse httpResponse = null;
+		InputStream in = null;
+
+		try {
+			httpClient = new DefaultHttpClient();
+			httpGet = new HttpGet( new URI( url ) );
+			httpResponse = httpClient.execute(httpGet);
+			in = httpResponse.getEntity().getContent();
+
+		} catch( Exception e ) {
+			e.printStackTrace();
+		}
+
+		return in;
 	}
 }

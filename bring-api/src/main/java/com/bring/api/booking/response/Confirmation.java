@@ -25,4 +25,14 @@ public class Confirmation {
 	@XmlElement(name = "package")
 	@XmlElementWrapper(name = "packages")
 	private List<Package> packages;
+
+
+	public String getConsignmentNumber() {
+		return consignmentNumber;
+	}
+
+
+	public Links getLinks() {
+		return links;
+	}
 }

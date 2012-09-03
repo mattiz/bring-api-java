@@ -13,4 +13,9 @@ public class Links {
 
 	@XmlElement
 	private String tracking;
+
+
+	public String getLabels() {
+		return labels;
+	}
 }
