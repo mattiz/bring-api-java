@@ -32,7 +32,32 @@ public class Confirmation {
 	}
 
 
+	public List<Package> getPackages() {
+		return packages;
+	}
+
+
 	public Links getLinks() {
 		return links;
+	}
+
+
+	public String getEarliestPickup() {
+		return dateAndTimes.getEarliestPickup();
+	}
+
+
+	public String getExpectedDelivery() {
+		return dateAndTimes.getExpectedDelivery();
+	}
+
+
+	public String getLabelURL() {
+		return links.getLabelURL();
+	}
+
+
+	public String getTrackingURL() {
+		return links.getTrackingURL();
 	}
 }

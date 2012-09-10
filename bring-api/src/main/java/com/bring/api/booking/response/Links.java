@@ -15,7 +15,12 @@ public class Links {
 	private String tracking;
 
 
-	public String getLabels() {
+	public String getLabelURL() {
 		return labels;
+	}
+
+
+	public String getTrackingURL() {
+		return tracking;
 	}
 }

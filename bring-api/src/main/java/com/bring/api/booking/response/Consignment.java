@@ -40,7 +40,32 @@ public class Consignment {
 	}
 
 
+	public List<Package> getPackages() {
+		return confirmation.getPackages();
+	}
+
+
 	public InputStream getLabel() throws RequestFailedException {
-		return new BookingDao().getLabel( confirmation.getLinks().getLabels() );
+		return new BookingDao().getLabel( confirmation.getLinks().getLabelURL() );
+	}
+
+
+	public String getEarliestPickup() {
+		return confirmation.getEarliestPickup();
+	}
+
+
+	public String getExpectedDelivery() {
+		return confirmation.getExpectedDelivery();
+	}
+
+
+	public String getLabelURL() {
+		return confirmation.getLabelURL();
+	}
+
+
+	public String getTrackingURL() {
+		return confirmation.getTrackingURL();
 	}
 }

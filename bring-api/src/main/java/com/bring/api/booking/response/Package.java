@@ -14,4 +14,9 @@ public class Package {
 
 	@XmlElement
 	private String packageNumber;
+
+
+	public String getPackageNumber() {
+		return packageNumber;
+	}
 }

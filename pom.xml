@@ -138,4 +138,16 @@
         </profile>
     </profiles>
 
+    <distributionManagement>
+        <repository>
+            <id>edipost-repository</id>
+            <name>Internal Releases</name>
+            <url>http://repository.edipost.no/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>edipost-repository</id>
+            <url>http://repository.edipost.no/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>

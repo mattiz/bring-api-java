@@ -21,6 +21,11 @@ public class Error {
 	private List<Message> messages;
 
 
+	public String getCode() {
+		return code;
+	}
+
+
 	@Override
 	public String toString() {
 		StringBuilder summary = new StringBuilder();

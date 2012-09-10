@@ -13,4 +13,14 @@ public class DateAndTime {
 
 	@XmlElement
 	private String expectedDelivery;
+
+
+	public String getEarliestPickup() {
+		return earliestPickup;
+	}
+
+
+	public String getExpectedDelivery() {
+		return expectedDelivery;
+	}
 }
