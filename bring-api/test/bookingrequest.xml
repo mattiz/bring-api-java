@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookingRequest xmlns="http://www.bring.no/booking/" testIndicator="true">
+    <schemaVersion>1</schemaVersion>
+    <consignments>
+        <consignment correlationId="CORRE-123">
+            <shippingDateTime>2012-09-12T22:55:33.434+02:00</shippingDateTime>
+            <parties>
+                <sender>
+                    <name>Testavsender</name>
+                    <addressLine>Testadresse</addressLine>
+                    <postalCode>0484</postalCode>
+                    <city>OSLO</city>
+                    <countryCode>NO</countryCode>
+                    <reference>1234</reference>
+                    <additionalAddressInfo>Hentes på baksiden</additionalAddressInfo>
+                    <contact>
+                        <name>Trond Normann</name>
+                        <email>trond@normann.no</email>
+                        <phoneNumber>98765432</phoneNumber>
+                    </contact>
+                </sender>
+                <recipient>
+                    <name>Testmottaker</name>
+                    <addressLine>Testadresse</addressLine>
+                    <postalCode>10019</postalCode>
+                    <city>NEW YORK</city>
+                    <countryCode>US</countryCode>
+                    <reference>1234</reference>
+                    <additionalAddressInfo>Hentes på baksiden</additionalAddressInfo>
+                    <contact>
+                        <name>Trond Normann</name>
+                        <email>trond@normann.no</email>
+                        <phoneNumber>98765432</phoneNumber>
+                    </contact>
+                </recipient>
+            </parties>
+            <product>
+                <id>QUICKPACK_OVER_NIGHT_1200</id>
+                <customerNumber>EXPRESS_NORWAY-5ada2163-27c8-4f5f-803d-fc506cc66db1</customerNumber>
+                <services>
+                    <recipientNotification>
+                        <email>mail</email>
+                        <mobile>mobil</mobile>
+                    </recipientNotification>
+                </services>
+            </product>
+            <packages>
+                <package correlationId="CORR-321">
+                    <weightInKg>1.1</weightInKg>
+                    <goodsDescription>Beskrivelse</goodsDescription>
+                    <dimensions>
+                        <heightInCm>10</heightInCm>
+                        <widthInCm>10</widthInCm>
+                        <lengthInCm>10</lengthInCm>
+                    </dimensions>
+                </package>
+            </packages>
+        </consignment>
+    </consignments>
+</bookingRequest>
