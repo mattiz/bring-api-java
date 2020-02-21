@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bring</groupId>
+    <groupId>no.edipost</groupId>
     <artifactId>bring-api-examples</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
 
     <parent>
         <artifactId>bring-api-root</artifactId>
-        <groupId>com.bring</groupId>
-        <version>1.0.4-SNAPSHOT</version>
+        <groupId>no.edipost</groupId>
+        <version>1.0.4</version>
     </parent>
 
     <name>bring-api-examples</name>
@@ -20,9 +20,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.bring</groupId>
+            <groupId>no.edipost</groupId>
             <artifactId>bring-api</artifactId>
-            <version>1.0.4-SNAPSHOT</version>
+            <version>1.0.4</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -31,9 +31,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.bring</groupId>
+            <groupId>no.edipost</groupId>
             <artifactId>bring-api-httpclient4</artifactId>
-            <version>1.0.4-SNAPSHOT</version>
+            <version>1.0.4</version>
         </dependency>
     </dependencies>
 </project>

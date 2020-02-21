@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bring</groupId>
+    <groupId>no.edipost</groupId>
     <artifactId>bring-api-root</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -140,11 +140,11 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>nexus-snapshots</id>
+            <id>edipost-snapshots</id>
             <url>https://nexus.edipost.no/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>nexus-releases</id>
+            <id>edipost-releases</id>
             <url>https://nexus.edipost.no/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
